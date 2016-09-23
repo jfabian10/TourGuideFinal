@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cancun-->
+        <scene sceneID="MET-LE-m2z">
+            <objects>
+                <viewController id="bl7-cN-EEn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lp5-ob-d04"/>
+                        <viewControllerLayoutGuide type="bottom" id="EpF-sb-Tp3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="roA-tB-s8r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cancun" translatesAutoresizingMaskIntoConstraints="NO" id="gKm-DA-8Ls"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gKm-DA-8Ls" secondAttribute="bottom" id="WSM-ZL-fg7"/>
+                            <constraint firstItem="gKm-DA-8Ls" firstAttribute="leading" secondItem="roA-tB-s8r" secondAttribute="leading" id="eAf-ic-eoX"/>
+                            <constraint firstItem="gKm-DA-8Ls" firstAttribute="top" secondItem="roA-tB-s8r" secondAttribute="top" id="qVa-Rt-SGS"/>
+                            <constraint firstAttribute="trailing" secondItem="gKm-DA-8Ls" secondAttribute="trailing" id="uxo-yS-eY4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cancun" image="TabBarIcon-Cancun" id="8Kn-Za-ejg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFA-rw-lb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-694" y="-2236"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bl7-cN-EEn" kind="relationship" relationship="viewControllers" id="XCU-QB-bkk"/>
+                        <segue destination="Zx9-Z7-xI4" kind="relationship" relationship="viewControllers" id="nsP-3M-KZE"/>
+                        <segue destination="YYT-Mg-WJv" kind="relationship" relationship="viewControllers" id="mZp-O8-7L1"/>
+                        <segue destination="qSV-gd-fSR" kind="relationship" relationship="viewControllers" id="Yiw-rR-H5F"/>
+                        <segue destination="ok1-UM-K8c" kind="relationship" relationship="viewControllers" id="dLF-0c-v0X"/>
+                        <segue destination="YcF-lJ-uPL" kind="relationship" relationship="viewControllers" id="gZw-Ec-eaT"/>
+                        <segue destination="Qeo-QU-Yge" kind="relationship" relationship="viewControllers" id="DWf-Ma-mgx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1702" y="155"/>
+        </scene>
+        <!--Miami-->
+        <scene sceneID="YIj-Zo-ggl">
+            <objects>
+                <viewController id="YYT-Mg-WJv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pQL-wp-f2Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="iNm-1n-Ezh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GBk-rk-XV5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Miami" translatesAutoresizingMaskIntoConstraints="NO" id="C8L-cE-10K"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="C8L-cE-10K" secondAttribute="trailing" id="1DL-rf-7Um"/>
+                            <constraint firstItem="C8L-cE-10K" firstAttribute="leading" secondItem="GBk-rk-XV5" secondAttribute="leading" id="2oC-wG-QQ7"/>
+                            <constraint firstItem="C8L-cE-10K" firstAttribute="top" secondItem="GBk-rk-XV5" secondAttribute="top" id="7xL-yd-Q1Z"/>
+                            <constraint firstAttribute="bottom" secondItem="C8L-cE-10K" secondAttribute="bottom" id="waA-VP-b2X"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Miami" image="TabBarIcon-Miami" id="fQc-Wn-0hp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RCn-Q5-OSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="-564"/>
+        </scene>
+        <!--Munich-->
+        <scene sceneID="tqv-me-KGy">
+            <objects>
+                <viewController id="DYR-Rd-FgG" customClass="MunichViewController" customModule="TourGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aZZ-br-MQd"/>
+                        <viewControllerLayoutGuide type="bottom" id="PCr-t0-sAT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZEU-0I-Sfy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attractions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOB-1N-ncW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="0U4-nh-ysN"/>
+                                    <constraint firstAttribute="height" constant="32" id="ryM-fU-2ip"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="546-W0-kbQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="5dQ-as-KXb"/>
+                                    <constraint firstAttribute="width" constant="275" id="TvT-6S-fMs"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Churches"/>
+                                    <segment title="Marienplatz"/>
+                                    <segment title="Oktoberfest"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9H-RF-bjp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Aqj-0D-9t7"/>
+                                    <constraint firstAttribute="width" constant="115" id="wo7-aU-coy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="showButtonTapped:" destination="DYR-Rd-FgG" eventType="touchUpInside" id="Y8M-Us-KcN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="546-W0-kbQ" firstAttribute="top" secondItem="lOB-1N-ncW" secondAttribute="bottom" constant="28" id="2mT-7m-db5"/>
+                            <constraint firstItem="546-W0-kbQ" firstAttribute="centerX" secondItem="ZEU-0I-Sfy" secondAttribute="centerX" id="VIi-d2-ehw"/>
+                            <constraint firstItem="k9H-RF-bjp" firstAttribute="top" secondItem="546-W0-kbQ" secondAttribute="bottom" constant="42" id="Vs4-Xn-XJ0"/>
+                            <constraint firstItem="k9H-RF-bjp" firstAttribute="centerX" secondItem="ZEU-0I-Sfy" secondAttribute="centerX" id="ZHc-uO-SwO"/>
+                            <constraint firstItem="lOB-1N-ncW" firstAttribute="centerX" secondItem="ZEU-0I-Sfy" secondAttribute="centerX" id="olJ-Pk-frc"/>
+                            <constraint firstItem="lOB-1N-ncW" firstAttribute="top" secondItem="aZZ-br-MQd" secondAttribute="bottom" constant="26" id="t8d-Gf-sfp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Munich" id="wLV-Ly-Yq1"/>
+                    <connections>
+                        <outlet property="attractionSegmentedControl" destination="546-W0-kbQ" id="XeV-ze-dIi"/>
+                        <segue destination="uUr-9q-EHx" kind="show" identifier="Show Munich Attraction" id="h3N-qR-Dfz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nXw-Oy-cd1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="153.37331334332833"/>
+        </scene>
+        <!--Attraction Title-->
+        <scene sceneID="6it-fr-iAU">
+            <objects>
+                <viewController id="uUr-9q-EHx" customClass="MunichAttractionViewController" customModule="TourGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hxe-Jq-3yE"/>
+                        <viewControllerLayoutGuide type="bottom" id="eNB-KL-O6U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="THg-rA-hnP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KIt-ks-Zvr"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KIt-ks-Zvr" secondAttribute="trailing" id="IbR-oI-pb8"/>
+                            <constraint firstItem="eNB-KL-O6U" firstAttribute="top" secondItem="KIt-ks-Zvr" secondAttribute="bottom" id="p8t-S3-hx1"/>
+                            <constraint firstItem="KIt-ks-Zvr" firstAttribute="leading" secondItem="THg-rA-hnP" secondAttribute="leading" id="uKb-4B-TRu"/>
+                            <constraint firstItem="KIt-ks-Zvr" firstAttribute="top" secondItem="hxe-Jq-3yE" secondAttribute="bottom" id="ucM-8a-mHp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Attraction Title" id="qoM-Nu-736"/>
+                    <connections>
+                        <outlet property="attractionImageView" destination="KIt-ks-Zvr" id="t0Q-Ad-IXT"/>
+                        <outlet property="attractionNavigationItem" destination="qoM-Nu-736" id="Sao-4t-rVT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBt-Dh-Y5R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1106" y="152"/>
+        </scene>
+        <!--Rome-->
+        <scene sceneID="XPE-pb-cwQ">
+            <objects>
+                <viewController id="YcF-lJ-uPL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9vu-UH-rZX"/>
+                        <viewControllerLayoutGuide type="bottom" id="lhy-cn-OKe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ruB-rg-VPX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rome" translatesAutoresizingMaskIntoConstraints="NO" id="ug6-md-Ag8"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ug6-md-Ag8" firstAttribute="top" secondItem="ruB-rg-VPX" secondAttribute="top" id="N1p-Rk-ZRu"/>
+                            <constraint firstAttribute="bottom" secondItem="ug6-md-Ag8" secondAttribute="bottom" id="dul-fU-sbL"/>
+                            <constraint firstAttribute="trailing" secondItem="ug6-md-Ag8" secondAttribute="trailing" id="kk4-kG-TxX"/>
+                            <constraint firstItem="ug6-md-Ag8" firstAttribute="leading" secondItem="ruB-rg-VPX" secondAttribute="leading" id="mD2-XB-uld"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rome" image="TabBarIcon-Rome" id="v72-BM-Q5D"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPg-x2-dV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1703" y="1644"/>
+        </scene>
+        <!--Paris-->
+        <scene sceneID="4GE-78-Bhx">
+            <objects>
+                <viewController id="ok1-UM-K8c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b5e-8W-PpI"/>
+                        <viewControllerLayoutGuide type="bottom" id="OFC-xS-FYa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nk1-om-P08">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Paris" translatesAutoresizingMaskIntoConstraints="NO" id="Ksb-fE-cmD"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ksb-fE-cmD" firstAttribute="leading" secondItem="Nk1-om-P08" secondAttribute="leading" id="R2h-vU-aF8"/>
+                            <constraint firstAttribute="trailing" secondItem="Ksb-fE-cmD" secondAttribute="trailing" id="UZQ-Da-818"/>
+                            <constraint firstItem="Ksb-fE-cmD" firstAttribute="top" secondItem="Nk1-om-P08" secondAttribute="top" id="gMZ-nS-2DK"/>
+                            <constraint firstAttribute="bottom" secondItem="Ksb-fE-cmD" secondAttribute="bottom" id="jcB-tt-Ttg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Paris" image="TabBarIcon-Paris" id="3Xr-uB-XN1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kNd-l7-yeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="1644"/>
+        </scene>
+        <!--Orlando-->
+        <scene sceneID="msT-Vj-Ufu">
+            <objects>
+                <viewController id="qSV-gd-fSR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="52W-KV-wSL"/>
+                        <viewControllerLayoutGuide type="bottom" id="d1i-ib-fg0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IKV-Td-7NW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Orlando" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-3Z-zju"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZIg-3Z-zju" secondAttribute="trailing" id="8Xm-hs-tpD"/>
+                            <constraint firstItem="ZIg-3Z-zju" firstAttribute="leading" secondItem="IKV-Td-7NW" secondAttribute="leading" id="Oyf-e6-DdO"/>
+                            <constraint firstAttribute="bottom" secondItem="ZIg-3Z-zju" secondAttribute="bottom" id="Z8I-p6-Pjj"/>
+                            <constraint firstItem="ZIg-3Z-zju" firstAttribute="top" secondItem="IKV-Td-7NW" secondAttribute="top" id="rka-Z4-FuT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Orlando" image="TabBarIcon-Orlando" id="FFc-NL-afc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khp-jP-saX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="886"/>
+        </scene>
+        <!--Boat Cruise-->
+        <scene sceneID="HzT-zY-f68">
+            <objects>
+                <viewController id="5l4-fx-IBZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mbf-wd-cUl"/>
+                        <viewControllerLayoutGuide type="bottom" id="10x-bw-6yo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yRP-8a-GAw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LondonBoatCruise" translatesAutoresizingMaskIntoConstraints="NO" id="LAR-HE-aNS"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="10x-bw-6yo" firstAttribute="top" secondItem="LAR-HE-aNS" secondAttribute="bottom" id="6eI-WA-ZLZ"/>
+                            <constraint firstAttribute="trailing" secondItem="LAR-HE-aNS" secondAttribute="trailing" id="JEh-Cx-Ir7"/>
+                            <constraint firstItem="LAR-HE-aNS" firstAttribute="leading" secondItem="yRP-8a-GAw" secondAttribute="leading" id="drB-54-0gC"/>
+                            <constraint firstItem="LAR-HE-aNS" firstAttribute="top" secondItem="mbf-wd-cUl" secondAttribute="bottom" id="rPA-3c-7QA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Boat Cruise" id="zRy-Ze-Stf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4q-hU-w4z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="-1847"/>
+        </scene>
+        <!--Museums-->
+        <scene sceneID="gAH-m2-WRm">
+            <objects>
+                <viewController id="lAK-xr-BQi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qf7-U0-a5z"/>
+                        <viewControllerLayoutGuide type="bottom" id="wCE-NU-nOP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aNJ-7K-F2J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LondonMuseums" translatesAutoresizingMaskIntoConstraints="NO" id="UUb-yG-T9f"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UUb-yG-T9f" firstAttribute="top" secondItem="qf7-U0-a5z" secondAttribute="bottom" id="CgU-2Q-S3s"/>
+                            <constraint firstAttribute="trailing" secondItem="UUb-yG-T9f" secondAttribute="trailing" id="KqA-ae-LVu"/>
+                            <constraint firstItem="UUb-yG-T9f" firstAttribute="leading" secondItem="aNJ-7K-F2J" secondAttribute="leading" id="VsP-bA-kfI"/>
+                            <constraint firstItem="wCE-NU-nOP" firstAttribute="top" secondItem="UUb-yG-T9f" secondAttribute="bottom" id="nQP-fx-Dkn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Museums" id="ScQ-wn-uDY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2go-17-DWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="-845"/>
+        </scene>
+        <!--London-->
+        <scene sceneID="cFK-Bu-0PQ">
+            <objects>
+                <viewController id="0EM-3S-D6R" customClass="LondonViewController" customModule="TourGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ci4-Z9-rb1"/>
+                        <viewControllerLayoutGuide type="bottom" id="4HF-89-eMq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Wk-Cq-PMT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWo-Mq-AT3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ib7-tO-Y1a"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Boat Cruise" id="Ntx-NE-BjU">
+                                        <connections>
+                                            <segue destination="5l4-fx-IBZ" kind="show" identifier="Show Boat Cruise Scene" id="603-XO-ePB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Monuments" id="gWb-aF-8oD">
+                                        <connections>
+                                            <segue destination="X1B-Tn-F4q" kind="show" identifier="Show Monuments Scene" id="ljO-VP-tGj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Museums" id="Tn1-6N-g0I">
+                                        <connections>
+                                            <segue destination="lAK-xr-BQi" kind="show" identifier="Show Museums Scene" id="yai-7W-RNy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take Our Survey!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcl-Is-dIq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Dbl-Ud-xWL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLK-X6-bkf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QIZ-Cd-PGX"/>
+                                    <constraint firstAttribute="width" constant="135" id="SNw-12-YtM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="surveyButtonTapped:" destination="0EM-3S-D6R" eventType="touchUpInside" id="ajo-sq-V5h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jLK-X6-bkf" firstAttribute="top" secondItem="Zcl-Is-dIq" secondAttribute="bottom" constant="38" id="1sy-lD-nfd"/>
+                            <constraint firstItem="Zcl-Is-dIq" firstAttribute="top" secondItem="lWo-Mq-AT3" secondAttribute="bottom" constant="52" id="7Vg-g6-f30"/>
+                            <constraint firstItem="lWo-Mq-AT3" firstAttribute="leading" secondItem="1Wk-Cq-PMT" secondAttribute="leading" id="9M8-he-gEh"/>
+                            <constraint firstAttribute="trailing" secondItem="Zcl-Is-dIq" secondAttribute="trailing" constant="38" id="G0W-XX-wke"/>
+                            <constraint firstItem="Zcl-Is-dIq" firstAttribute="leading" secondItem="1Wk-Cq-PMT" secondAttribute="leading" constant="38" id="RPl-tg-zrh"/>
+                            <constraint firstItem="lWo-Mq-AT3" firstAttribute="top" secondItem="Ci4-Z9-rb1" secondAttribute="bottom" id="SRT-b6-itU"/>
+                            <constraint firstAttribute="trailing" secondItem="lWo-Mq-AT3" secondAttribute="trailing" id="clb-yo-sra"/>
+                            <constraint firstItem="jLK-X6-bkf" firstAttribute="centerX" secondItem="1Wk-Cq-PMT" secondAttribute="centerX" id="fJy-3n-jn1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="London" id="aJl-lS-mFP"/>
+                    <connections>
+                        <outlet property="messageBox" destination="Zcl-Is-dIq" id="RY5-sy-Pwe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Djd-2i-l8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="-1343"/>
+        </scene>
+        <!--Monuments-->
+        <scene sceneID="nLe-XN-E5G">
+            <objects>
+                <viewController id="X1B-Tn-F4q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LMv-Qv-hhY"/>
+                        <viewControllerLayoutGuide type="bottom" id="zDZ-aC-5rO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5X9-W9-au6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LondonMonuments" translatesAutoresizingMaskIntoConstraints="NO" id="itL-b5-MBg"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="itL-b5-MBg" firstAttribute="leading" secondItem="5X9-W9-au6" secondAttribute="leading" id="87h-cX-bWl"/>
+                            <constraint firstItem="zDZ-aC-5rO" firstAttribute="top" secondItem="itL-b5-MBg" secondAttribute="bottom" id="QCi-FN-cJK"/>
+                            <constraint firstItem="itL-b5-MBg" firstAttribute="top" secondItem="LMv-Qv-hhY" secondAttribute="bottom" id="Ssw-rJ-2bN"/>
+                            <constraint firstAttribute="trailing" secondItem="itL-b5-MBg" secondAttribute="trailing" id="kL5-df-eJw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Monuments" id="qBN-cb-Mr8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfd-lg-5vw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2198" y="-1343"/>
+        </scene>
+        <!--London-->
+        <scene sceneID="fng-iU-nMU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zx9-Z7-xI4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="London" image="TabBarIcon-London" id="znw-U8-GQ4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VGl-qZ-JLm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0EM-3S-D6R" kind="relationship" relationship="rootViewController" id="PnI-Bc-cxk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkn-pF-9QA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="-1343"/>
+        </scene>
+        <!--Munich-->
+        <scene sceneID="liB-Cl-fGM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qeo-QU-Yge" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Munich" image="TabBarIcon-Munich" id="RM6-J5-Ao2"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5C1-m4-MOj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DYR-Rd-FgG" kind="relationship" relationship="rootViewController" id="4Q1-Jj-evC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFa-DX-rsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695.20000000000005" y="153.37331334332833"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cancun" width="360" height="640"/>
+        <image name="LondonBoatCruise" width="360" height="640"/>
+        <image name="LondonMonuments" width="360" height="640"/>
+        <image name="LondonMuseums" width="360" height="640"/>
+        <image name="Miami" width="360" height="640"/>
+        <image name="Orlando" width="360" height="640"/>
+        <image name="Paris" width="360" height="640"/>
+        <image name="Rome" width="360" height="640"/>
+        <image name="TabBarIcon-Cancun" width="30" height="30"/>
+        <image name="TabBarIcon-London" width="29" height="30"/>
+        <image name="TabBarIcon-Miami" width="29" height="30"/>
+        <image name="TabBarIcon-Munich" width="30" height="30"/>
+        <image name="TabBarIcon-Orlando" width="29" height="30"/>
+        <image name="TabBarIcon-Paris" width="30" height="30"/>
+        <image name="TabBarIcon-Rome" width="30" height="30"/>
+    </resources>
+</document>
